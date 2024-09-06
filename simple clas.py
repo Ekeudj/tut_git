@@ -22,7 +22,7 @@ class Animal():
     def increase_age(self,new_increment):
         self.age += new_increment
 
-my_pet = Animal("Maltese",6,"Kasolo Dickson","Kiganda")
+my_pet = Animal("Maltese",10,"Kasolo Dickson","Kiganda")
 my_pet.gen_description()
 my_pet.increase_age(1)
 my_pet.specify()

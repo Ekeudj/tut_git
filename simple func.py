@@ -3,4 +3,4 @@ def person(name,age,nationality):
     define = print("My name is "+name+"I'm a "+new_age+" year old "+nationality+" native.")
     return define
 
-person("Ekeu David",18,"Ugandan")
+person("Ekeu David",23,"Ugandan")
