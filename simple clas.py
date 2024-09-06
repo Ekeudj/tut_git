@@ -19,10 +19,3 @@ class Animal():
         else:
             print("Changed swii.")
 
-    def increase_age(self,new_increment):
-        self.age += new_increment
-
-my_pet = Animal("Maltese",4,"Kasolo Dickson","Kiganda")
-my_pet.gen_description()
-my_pet.increase_age(1)
-my_pet.specify()
