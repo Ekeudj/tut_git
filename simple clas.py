@@ -17,7 +17,7 @@ class Animal():
         if new_age >= self.age:
             age = new_age
         else:
-            print("You cannot reverse age please.")
+            print("Changed swii.")
 
     def increase_age(self,new_increment):
         self.age += new_increment
